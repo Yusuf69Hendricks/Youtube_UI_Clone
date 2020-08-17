@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;500;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+font-family: 'Roboto', sans-serif;
+}
+
+/* MENU BAR CSS START */
+.menuBar{
+    display: flex;
+    /* automatically makes content a row */
+    justify-content: space-around;
+    align-items: center;
+    height: 70px;
+
+}
+
+.menuBar .logo{
+    display: flex;
+    align-items: center;
+
+}
+
+.menuBar .logo img{
+    width: 100px;
+    margin-left: 15px;
+}
+
+.menuBar i{
+    padding: 0 7px;
+
+}
+
+.menuBar .search form{
+ border: 1px solid #ddd;
+ height: 35px;
+
+}
+
+.menuBar .search input{
+    width: 500px;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    border-radius: none;
+    border: none;
+}
+
+.menuBar .search button{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    border-radius: none;
+    border: none;
+}
+
+/* MENU BAR CSS END*/
+
+/* MAIN BODY CSS START */
+.mainBody{
+    height: calc(100vh - 70px);
+    /* Above basically sets the height of main body to the hight of the screen but calc subtracts the height of menuBar that we set to 70px */
+    display: flex;
+}
+
+.mainBody .catagories{
+    background: red;
+}
+/* MAIN BODY CSS END */
