@@ -16,7 +16,6 @@
 # Built With
 ## CCS3
 ## HTML5
-## Javascript
 
 # Acknowledgments
-## Julio Codes
+## [Zaio](zaio.io)
