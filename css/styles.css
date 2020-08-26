@@ -16,6 +16,18 @@ hr {
     background-color: var(--color-grey);
     border: none;
 }
+h1{
+    font-size: 20px;
+    margin-bottom: 10px;
+    margin-left: 15px;
+    color: rgb(3, 3, 3);
+}
+
+h4{
+    font-size: 14px;
+    margin-left: 15px;
+    color: rgb(96, 96, 96);
+}
 body{
 font-family: 'Roboto', sans-serif;
 }
@@ -25,10 +37,14 @@ font-family: 'Roboto', sans-serif;
 .material-icons{
     color: rgb(96, 96, 96);
 }
+
+.icons{
+    margin-right: 10px;
+}
 .menuBar{
     display: flex;
     /* automatically makes content a row */
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     height: 70px;
 
@@ -37,11 +53,12 @@ font-family: 'Roboto', sans-serif;
 .menuBar .logo{
     display: flex;
     align-items: center;
+    margin-left: 10px;
 
 }
 
 .menuBar .logo img{
-    width: 100px;
+    width: 85px;
     margin-left: 15px;
 }
 
@@ -51,18 +68,19 @@ font-family: 'Roboto', sans-serif;
 }
 
 .menuBar .search form{
- border: 1px solid #ddd;
- height: 35px;
- margin: 0;
- padding: 0;
+    border: 1px solid #ddd;
+    height: 32px;
+    margin: 0;
+    padding: 0;
+    display: flex;
 
 }
 
 .menuBar .search input{
-    width: 500px;
+    width: 600px;
     margin: 0;
     padding: 0;
-    height: 50%;
+    height: 100%;
     border-radius: none;
     border: none;
 }
@@ -71,10 +89,16 @@ font-family: 'Roboto', sans-serif;
     margin: 0;
     padding: 0;
     height: 100%;
+    width: 60px;
     border-radius: none;
     border: none;
+    /* background-color: red; */
 }
 
+.menuBar .search button i{
+    font-size: 20px;
+    color: rgb(96, 96, 96);
+}
 /* MENU BAR CSS END*/
 
 /* MAIN BODY CSS START */
@@ -87,6 +111,7 @@ font-family: 'Roboto', sans-serif;
 }
 
 .mainBody .catagories{
+    height: 100%;
     width: 230px;
     /* background-color: red; */ 
     background-color: white;
@@ -176,13 +201,14 @@ font-family: 'Roboto', sans-serif;
 .details .tittle h3{
    color: rgb(3, 3, 3);
    font-size: 14px;
+   padding-bottom: 10px;
 }
 
 .details .tittle a, span{
    text-decoration: none;
    color: rgb(96, 96, 96);
    font-size: 14px;
+   /* font-weight: lighter; */
 }
-
 
 /* MAIN BODY CSS END */
